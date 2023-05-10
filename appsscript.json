@@ -1,0 +1,36 @@
+{
+  "timeZone": "Asia/Kolkata",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "addOns": {
+    "common": {
+      "name": "Language Translator",
+      "logoUrl": "https://lh3.googleusercontent.com/drive-viewer/AFGJ81pz8cn73uclQ5K6Ne0LY4_KssS1XLpBfGT_9kx_Pq0lD4pagwpv6g1MPA3NGkd4_E5ccxWh3JBs4z6yo38lOLghpB93=s2560",
+      "useLocaleFromApp": true,
+      "layoutProperties": {
+        "primaryColor": "#1d3557"
+      }
+    },
+    "sheets": {
+      "homepageTrigger": {
+        "runFunction": "onhomepage",
+        "enabled": true
+      }
+    },
+    "docs": {
+      "homepageTrigger": {
+        "runFunction": "onhomepage",
+        "enabled": true
+      }
+    },
+    "slides": {
+      "homepageTrigger": {
+        "runFunction": "onhomepage",
+        "enabled": true
+      }
+    }
+  },
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/script.locale"
+  ]
+}
